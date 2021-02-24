@@ -40,7 +40,7 @@ class SplashWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SplashScreen(
-      seconds: 4,
+      seconds: 2,
       navigateAfterSeconds: HomePage(),
       title: Text(
         'Get it Done',
