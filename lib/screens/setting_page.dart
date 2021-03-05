@@ -7,7 +7,7 @@ class SettingsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Tema Seçimi Yapınız"),
+        title: Text("Change Theme Color"),
       ),
       body: SwitchCard(),
     );
